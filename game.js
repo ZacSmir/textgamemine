@@ -31,10 +31,10 @@ function parseText(text) {
 
     case "random":
       var responses = [
-        "TACOS",
-        "42",
-        "What is love",
-        "shush",
+        "IDK",
+        "who am i",
+        "David rocks",
+        "stop",
       ]
       var response = responses[Math.floor(Math.random()*responses.length)];
       gameOutput.html(response);    
@@ -55,3 +55,8 @@ function parseText(text) {
     default: gameOutput.html("Sorry, I didn't catch that, could you please be more clear?");
   }
 }
+
+
+
+
+
